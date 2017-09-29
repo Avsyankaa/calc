@@ -1,7 +1,8 @@
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
-using namespase std;
+using namespace std;
+
 int main (int argc, char*argv[])
 {
   char operand;
