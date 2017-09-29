@@ -9,6 +9,7 @@ int main (int argc, char*argv[])
   if ((isdigit (argv [1][0])) && (isdigit (argv [3][0])))
   {
     switch (operand)
+    {
       case '+':
     cout<< atoi (argv[1]) + atoi (argv[3])<< endl;
       break;
@@ -17,6 +18,7 @@ int main (int argc, char*argv[])
       break;
     default:
     cerr<< "ERROR"<< endl;
-  };
+   };
+  }
   else { cerr<< "ERROR"<< endl;};
 }
